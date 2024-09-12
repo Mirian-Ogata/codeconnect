@@ -1,0 +1,18 @@
+.container__ordenacao ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 24px;
+    font-size: 22px;
+    margin: 2em 0 1em 0;
+}
+.item__ordenacao-ativo {
+    font-weight: 500;
+    text-decoration: underline;
+    color: var(--verde-destaque);
+}
+
+.item__ordenacao{
+    color: var(--cinza-medio);
+}
+

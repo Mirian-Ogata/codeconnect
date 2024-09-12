@@ -1,0 +1,34 @@
+.container-filtro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.container-filtro ul{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.item__filtro {
+    display: flex;
+    background-color: var(--cinza-claro);
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    padding: .25em .5em;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.item__filtro-ativo{
+    background-color: var(--cinza-medio);
+    font-size: 18px;
+    gap: 10px;
+}
+
+.container-filtro button{
+    background-color: transparent;
+    border: none;
+    color: var(--cinza-medio);
+    font-size: 18px;
+}
